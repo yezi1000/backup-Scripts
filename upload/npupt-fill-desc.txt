@@ -12,7 +12,7 @@
     'use strict';
     var button_html = '&nbsp; &nbsp; &nbsp; <button type="button" id="down_video_btn">生成链接</button>';
     var html_tag = $("td.rowfollow.left");
-    var need = "[size=6][color=Red]安装有问题先看[url=https://npupt.com/forums.php?action=viewtopic&forumid=25&topicid=7184]游戏破解版常见问题[/url][/color][/size]\n\n【安装信息】\n1. 解压缩\n2. 载入镜像\n3. 安装游戏\n4. 复制Crack文件夹(也可能是组名例如CODEX PLAZA等)内的未加密补丁到游戏目录中覆盖如果这个文件夹为空则说明不需要打补丁 安装有问题可以查看*.nfo文件\n5. 运行游戏\n\n【游戏截图】"
+    var need = "[size=6][color=Red]安装有问题先看[url=https://npupt.com/forums.php?action=viewtopic&forumid=25&topicid=7184]游戏破解版常见问题[/url][/color][/size]\n\n【安装信息】\n1. 解压缩\n2. 载入镜像\n3. 安装游戏\n4. 复制Crack文件夹(也可能是组名例如CODEX PLAZA等)内的未加密补丁到游戏目录中覆盖\n  如果这个文件夹为空则说明不需要打补丁 安装有问题可以查看*.nfo文件\n5. 运行游戏\n\n【游戏截图】"
     if (html_tag) {
         html_tag.addClass("bt").append(button_html);
     }
